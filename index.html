@@ -1,76 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-    <div id="player"></div>
 
-    <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
+	<head>
+		<style type="text/css">		
+		#player {
+		    border-radius: 25px;
+		    background: #000000;
+		    padding: 15px; 
+		    width: 640px;
+		    height: 390px; 
+		}
+		
+		</style>
+	</head>		
 
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+	<body background="background.png">
+		
+		<center>			
+			<a href="https://itunes.apple.com/us/app/epictime-funny-videos-for/id1053299081">
+				<br><img src="eyes.png" height="70" width="115"></a>
+			<br><br><div id="player"></div>
+			<br><br><h1 style="font-family:verdana;color:white;">Watch more awesome videos on EpicTime App</h1>			 
+			<a href="https://itunes.apple.com/us/app/epictime-funny-videos-for/id1053299081">
+				<img src="appstore.png"></a>
+		</center>
+		
+		<script>
+			var player;
+			var done = false;
 
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
-      function onYouTubeIframeAPIReady() {
-		  var video = getVideo()
-		  
-        player = new YT.Player('player', {
-          height: '390',
-          width: '640',
-          videoId: video['v'],
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
+			var tag = document.createElement('script');
+			tag.src = "https://www.youtube.com/iframe_api";			
+			
+			var firstScriptTag = document.getElementsByTagName('script')[0];
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-      // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
-        event.target.playVideo();
-      }
+			function onYouTubeIframeAPIReady() {
+				var video = getVideo()
+				var videoId = video['v']
+				
+				if (videoId == "" || videoId == undefined) {
+					videoId = "cUYSGojUuAU"
+				}				
 
-      // 5. The API calls this function when the player's state changes.
-      //    The function indicates that when playing a video (state=1),
-      //    the player should play for six seconds and then stop.
-      var done = false;
-      function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING && !done) {
-          // setTimeout(stopVideo, 6000);
-          // done = true;
-        }
-      }
-      function stopVideo() {
-        player.stopVideo();
-      }
-	  
-	  function getVideo() {
-	    // This function is anonymous, is executed immediately and 
-	    // the return value is assigned to QueryString!
-	    var query_string = {};
-	    var query = window.location.search.substring(1);
-	    var vars = query.split("&");
-	    for (var i=0;i<vars.length;i++) {
-	      var pair = vars[i].split("=");
-	          // If first entry with this name
-	      if (typeof query_string[pair[0]] === "undefined") {
-	        query_string[pair[0]] = decodeURIComponent(pair[1]);
-	          // If second entry with this name
-	      } else if (typeof query_string[pair[0]] === "string") {
-	        var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
-	        query_string[pair[0]] = arr;
-	          // If third or later entry with this name
-	      } else {
-	        query_string[pair[0]].push(decodeURIComponent(pair[1]));
-	      }
-	    } 
-	      return query_string;
-	  }
-	  
-    </script>
-  </body>
+				player = new YT.Player('player', {
+					height: '390',
+					width: '640',
+					videoId: videoId,
+					events: {
+						'onReady': onPlayerReady,
+						'onStateChange': onPlayerStateChange
+					}
+				});
+			}
+
+			function onPlayerReady(event) {
+				event.target.playVideo();
+			}
+			
+			function onPlayerStateChange(event) {
+				if (event.data == YT.PlayerState.PLAYING && !done) {
+					// setTimeout(stopVideo, 6000);
+					// done = true;
+				}
+			}
+			
+			function stopVideo() {
+				player.stopVideo();
+			}
+
+			function getVideo() {
+				var query_string = {};
+				var query = window.location.search.substring(1);
+				var vars = query.split("&");
+				for (var i=0;i<vars.length;i++) {
+					var pair = vars[i].split("=");
+
+					if (typeof query_string[pair[0]] === "undefined") {
+						query_string[pair[0]] = decodeURIComponent(pair[1]);
+						
+					} else if (typeof query_string[pair[0]] === "string") {
+						var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
+						query_string[pair[0]] = arr;
+
+					} else {
+						query_string[pair[0]].push(decodeURIComponent(pair[1]));
+					}
+				} 
+				return query_string;
+			} 
+			
+		</script>
+	</body>
 </html>
