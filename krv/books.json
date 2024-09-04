@@ -1,0 +1,464 @@
+[
+  {
+    "short_name" : "창",
+    "book_number" : 10,
+    "book_color" : "#ccccff",
+    "long_name" : "창세기",
+    "sorting_order" : 100
+  },
+  {
+    "short_name" : "출",
+    "book_number" : 20,
+    "book_color" : "#ccccff",
+    "long_name" : "출애굽기",
+    "sorting_order" : 200
+  },
+  {
+    "short_name" : "레",
+    "book_number" : 30,
+    "book_color" : "#ccccff",
+    "long_name" : "레위기",
+    "sorting_order" : 300
+  },
+  {
+    "short_name" : "민",
+    "book_number" : 40,
+    "book_color" : "#ccccff",
+    "long_name" : "민수기",
+    "sorting_order" : 400
+  },
+  {
+    "short_name" : "신",
+    "book_number" : 50,
+    "book_color" : "#ccccff",
+    "long_name" : "신명기",
+    "sorting_order" : 500
+  },
+  {
+    "short_name" : "수",
+    "book_number" : 60,
+    "book_color" : "#ffcc99",
+    "long_name" : "여호수아기",
+    "sorting_order" : 600
+  },
+  {
+    "short_name" : "삿",
+    "book_number" : 70,
+    "book_color" : "#ffcc99",
+    "long_name" : "사사기",
+    "sorting_order" : 700
+  },
+  {
+    "short_name" : "룻",
+    "book_number" : 80,
+    "book_color" : "#ffcc99",
+    "long_name" : "룻기",
+    "sorting_order" : 800
+  },
+  {
+    "short_name" : "삼상",
+    "book_number" : 90,
+    "book_color" : "#ffcc99",
+    "long_name" : "사무엘기상",
+    "sorting_order" : 900
+  },
+  {
+    "short_name" : "삼하",
+    "book_number" : 100,
+    "book_color" : "#ffcc99",
+    "long_name" : "사무엘기하",
+    "sorting_order" : 1000
+  },
+  {
+    "short_name" : "왕상",
+    "book_number" : 110,
+    "book_color" : "#ffcc99",
+    "long_name" : "열왕기상",
+    "sorting_order" : 1100
+  },
+  {
+    "short_name" : "왕하",
+    "book_number" : 120,
+    "book_color" : "#ffcc99",
+    "long_name" : "열왕기하",
+    "sorting_order" : 1200
+  },
+  {
+    "short_name" : "대상",
+    "book_number" : 130,
+    "book_color" : "#ffcc99",
+    "long_name" : "역대지상",
+    "sorting_order" : 1300
+  },
+  {
+    "short_name" : "대하",
+    "book_number" : 140,
+    "book_color" : "#ffcc99",
+    "long_name" : "역대지하",
+    "sorting_order" : 1400
+  },
+  {
+    "short_name" : "스",
+    "book_number" : 150,
+    "book_color" : "#ffcc99",
+    "long_name" : "에스라기",
+    "sorting_order" : 1500
+  },
+  {
+    "short_name" : "느",
+    "book_number" : 160,
+    "book_color" : "#ffcc99",
+    "long_name" : "느헤미야기",
+    "sorting_order" : 1600
+  },
+  {
+    "short_name" : "에",
+    "book_number" : 190,
+    "book_color" : "#ffcc99",
+    "long_name" : "에스더기",
+    "sorting_order" : 1700
+  },
+  {
+    "short_name" : "욥",
+    "book_number" : 220,
+    "book_color" : "#66ff99",
+    "long_name" : "욥기",
+    "sorting_order" : 1800
+  },
+  {
+    "short_name" : "시",
+    "book_number" : 230,
+    "book_color" : "#66ff99",
+    "long_name" : "시편",
+    "sorting_order" : 1900
+  },
+  {
+    "short_name" : "잠",
+    "book_number" : 240,
+    "book_color" : "#66ff99",
+    "long_name" : "잠언",
+    "sorting_order" : 2000
+  },
+  {
+    "short_name" : "전",
+    "book_number" : 250,
+    "book_color" : "#66ff99",
+    "long_name" : "전도서",
+    "sorting_order" : 2100
+  },
+  {
+    "short_name" : "아",
+    "book_number" : 260,
+    "book_color" : "#66ff99",
+    "long_name" : "아가",
+    "sorting_order" : 2200
+  },
+  {
+    "short_name" : "사",
+    "book_number" : 290,
+    "book_color" : "#ff9fb4",
+    "long_name" : "이사야서",
+    "sorting_order" : 2300
+  },
+  {
+    "short_name" : "렘",
+    "book_number" : 300,
+    "book_color" : "#ff9fb4",
+    "long_name" : "예레미야서",
+    "sorting_order" : 2400
+  },
+  {
+    "short_name" : "애",
+    "book_number" : 310,
+    "book_color" : "#ff9fb4",
+    "long_name" : "예레미야 애가",
+    "sorting_order" : 2500
+  },
+  {
+    "short_name" : "겔",
+    "book_number" : 330,
+    "book_color" : "#ff9fb4",
+    "long_name" : "에스겔서",
+    "sorting_order" : 2600
+  },
+  {
+    "short_name" : "단",
+    "book_number" : 340,
+    "book_color" : "#ff9fb4",
+    "long_name" : "다니엘서",
+    "sorting_order" : 2700
+  },
+  {
+    "short_name" : "호",
+    "book_number" : 350,
+    "book_color" : "#ffff99",
+    "long_name" : "호세아서",
+    "sorting_order" : 2800
+  },
+  {
+    "short_name" : "욜",
+    "book_number" : 360,
+    "book_color" : "#ffff99",
+    "long_name" : "요엘서",
+    "sorting_order" : 2900
+  },
+  {
+    "short_name" : "암",
+    "book_number" : 370,
+    "book_color" : "#ffff99",
+    "long_name" : "아모스서",
+    "sorting_order" : 3000
+  },
+  {
+    "short_name" : "옵",
+    "book_number" : 380,
+    "book_color" : "#ffff99",
+    "long_name" : "오바댜서",
+    "sorting_order" : 3100
+  },
+  {
+    "short_name" : "욘",
+    "book_number" : 390,
+    "book_color" : "#ffff99",
+    "long_name" : "요나서",
+    "sorting_order" : 3200
+  },
+  {
+    "short_name" : "미",
+    "book_number" : 400,
+    "book_color" : "#ffff99",
+    "long_name" : "미가서",
+    "sorting_order" : 3300
+  },
+  {
+    "short_name" : "나",
+    "book_number" : 410,
+    "book_color" : "#ffff99",
+    "long_name" : "나훔서",
+    "sorting_order" : 3400
+  },
+  {
+    "short_name" : "합",
+    "book_number" : 420,
+    "book_color" : "#ffff99",
+    "long_name" : "하박국서",
+    "sorting_order" : 3500
+  },
+  {
+    "short_name" : "습",
+    "book_number" : 430,
+    "book_color" : "#ffff99",
+    "long_name" : "스바냐서",
+    "sorting_order" : 3600
+  },
+  {
+    "short_name" : "학",
+    "book_number" : 440,
+    "book_color" : "#ffff99",
+    "long_name" : "학개서",
+    "sorting_order" : 3700
+  },
+  {
+    "short_name" : "슥",
+    "book_number" : 450,
+    "book_color" : "#ffff99",
+    "long_name" : "스가랴서",
+    "sorting_order" : 3800
+  },
+  {
+    "short_name" : "말",
+    "book_number" : 460,
+    "book_color" : "#ffff99",
+    "long_name" : "말라기서",
+    "sorting_order" : 3900
+  },
+  {
+    "short_name" : "마",
+    "book_number" : 470,
+    "book_color" : "#ff6600",
+    "long_name" : "마태복음서",
+    "sorting_order" : 4000
+  },
+  {
+    "short_name" : "막",
+    "book_number" : 480,
+    "book_color" : "#ff6600",
+    "long_name" : "마가복음서",
+    "sorting_order" : 4100
+  },
+  {
+    "short_name" : "눅",
+    "book_number" : 490,
+    "book_color" : "#ff6600",
+    "long_name" : "누가복음서",
+    "sorting_order" : 4200
+  },
+  {
+    "short_name" : "요",
+    "book_number" : 500,
+    "book_color" : "#ff6600",
+    "long_name" : "요한복음서",
+    "sorting_order" : 4300
+  },
+  {
+    "short_name" : "행",
+    "book_number" : 510,
+    "book_color" : "#00ffff",
+    "long_name" : "사도행전",
+    "sorting_order" : 4400
+  },
+  {
+    "short_name" : "롬",
+    "book_number" : 520,
+    "book_color" : "#ffff00",
+    "long_name" : "로마서",
+    "sorting_order" : 4500
+  },
+  {
+    "short_name" : "고전",
+    "book_number" : 530,
+    "book_color" : "#ffff00",
+    "long_name" : "고린도전서",
+    "sorting_order" : 4600
+  },
+  {
+    "short_name" : "고후",
+    "book_number" : 540,
+    "book_color" : "#ffff00",
+    "long_name" : "고린도후서",
+    "sorting_order" : 4700
+  },
+  {
+    "short_name" : "갈",
+    "book_number" : 550,
+    "book_color" : "#ffff00",
+    "long_name" : "갈라디아서",
+    "sorting_order" : 4800
+  },
+  {
+    "short_name" : "엡",
+    "book_number" : 560,
+    "book_color" : "#ffff00",
+    "long_name" : "에베소서",
+    "sorting_order" : 4900
+  },
+  {
+    "short_name" : "빌",
+    "book_number" : 570,
+    "book_color" : "#ffff00",
+    "long_name" : "빌립보서",
+    "sorting_order" : 5000
+  },
+  {
+    "short_name" : "골",
+    "book_number" : 580,
+    "book_color" : "#ffff00",
+    "long_name" : "골로새서",
+    "sorting_order" : 5100
+  },
+  {
+    "short_name" : "살전",
+    "book_number" : 590,
+    "book_color" : "#ffff00",
+    "long_name" : "데살로니가전서",
+    "sorting_order" : 5200
+  },
+  {
+    "short_name" : "살후",
+    "book_number" : 600,
+    "book_color" : "#ffff00",
+    "long_name" : "데살로니가후서",
+    "sorting_order" : 5300
+  },
+  {
+    "short_name" : "딤전",
+    "book_number" : 610,
+    "book_color" : "#ffff00",
+    "long_name" : "디모데전서",
+    "sorting_order" : 5400
+  },
+  {
+    "short_name" : "딤후",
+    "book_number" : 620,
+    "book_color" : "#ffff00",
+    "long_name" : "디모데후서",
+    "sorting_order" : 5500
+  },
+  {
+    "short_name" : "딛",
+    "book_number" : 630,
+    "book_color" : "#ffff00",
+    "long_name" : "디도서",
+    "sorting_order" : 5600
+  },
+  {
+    "short_name" : "몬",
+    "book_number" : 640,
+    "book_color" : "#ffff00",
+    "long_name" : "빌레몬서",
+    "sorting_order" : 5700
+  },
+  {
+    "short_name" : "히",
+    "book_number" : 650,
+    "book_color" : "#ffff00",
+    "long_name" : "히브리서",
+    "sorting_order" : 5800
+  },
+  {
+    "short_name" : "약",
+    "book_number" : 660,
+    "book_color" : "#00ff00",
+    "long_name" : "야고보서",
+    "sorting_order" : 5900
+  },
+  {
+    "short_name" : "벧전",
+    "book_number" : 670,
+    "book_color" : "#00ff00",
+    "long_name" : "베드로전서",
+    "sorting_order" : 6000
+  },
+  {
+    "short_name" : "벧후",
+    "book_number" : 680,
+    "book_color" : "#00ff00",
+    "long_name" : "베드로후서",
+    "sorting_order" : 6100
+  },
+  {
+    "short_name" : "요일",
+    "book_number" : 690,
+    "book_color" : "#00ff00",
+    "long_name" : "요한1서",
+    "sorting_order" : 6200
+  },
+  {
+    "short_name" : "요이",
+    "book_number" : 700,
+    "book_color" : "#00ff00",
+    "long_name" : "요한2서",
+    "sorting_order" : 6300
+  },
+  {
+    "short_name" : "요삼",
+    "book_number" : 710,
+    "book_color" : "#00ff00",
+    "long_name" : "요한3서",
+    "sorting_order" : 6400
+  },
+  {
+    "short_name" : "유",
+    "book_number" : 720,
+    "book_color" : "#00ff00",
+    "long_name" : "유다서",
+    "sorting_order" : 6500
+  },
+  {
+    "short_name" : "계",
+    "book_number" : 730,
+    "book_color" : "#ff7c80",
+    "long_name" : "요한계시록",
+    "sorting_order" : 6600
+  }
+]

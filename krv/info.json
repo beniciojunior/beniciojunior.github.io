@@ -1,0 +1,30 @@
+[
+  {
+    "name" : "description",
+    "value" : "개역한글"
+  },
+  {
+    "name" : "html_style",
+    "value" : "i  { color: %COLOR_BLUE%; } \r\nem { color: %COLOR_BLUE%; } \r\na  { text-decoration: none; } \r\nspan.sc { font-variant: small-caps; } \r\n"
+  },
+  {
+    "name" : "detailed_info",
+    "value" : "개역한글 <br\/>\r\nKorean Bible Society 1961"
+  },
+  {
+    "name" : "language",
+    "value" : "ko"
+  },
+  {
+    "name" : "chapter_string",
+    "value" : "%s 장"
+  },
+  {
+    "name" : "chapter_string_ps",
+    "value" : "시편 %s 편"
+  },
+  {
+    "name" : "introduction_string",
+    "value" : "소개"
+  }
+]
